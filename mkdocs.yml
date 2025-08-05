@@ -72,22 +72,12 @@ nav:
   - Home: index.md
   - Installation:
     - Quick Start: installation/quick-start.md
-    - Advanced Setup: installation/advanced-setup.md
-    - Troubleshooting: installation/troubleshooting.md
-  - User Guide:
-    - Getting Started: user-guide/getting-started.md
-    - Officer Controls: user-guide/officer-controls.md
-    - Loot Distribution: user-guide/loot-distribution.md
-    - Settings: user-guide/settings.md
   - FAQ: faq.md
   - Support:
     - Troubleshooting: support/troubleshooting.md
-    - Known Issues: support/known-issues.md
-    - Report a Bug: support/report-bug.md
   - Development:
     - Contributing: development/contributing.md
     - Changelog: development/changelog.md
-    - API Reference: development/api-reference.md
 
 extra:
   social:

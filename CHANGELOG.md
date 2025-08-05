@@ -39,7 +39,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - *TBD* - Initial feature implementations
 
 ### Fixed
-- *TBD* - Bug fixes will be documented here
+
+- **MkDocs Pipeline**: Fixed GitHub Actions workflow for documentation deployment
+  - Resolved missing documentation file references in navigation
+  - Improved Python dependency installation with pip caching
+  - Optimized workflow for better reliability and performance
+- **Dev Container**: Optimized development environment setup
+  - Streamlined Python dependency installation during container build
+  - Removed unnecessary VS Code extensions (Live Server, Python linting)
+  - Fixed Dockerfile paths and eliminated virtual environment complexity
+  - Cleaned up setup scripts for faster container startup
+- **Project Organization**: Cleaned up copilot instructions
+  - Removed duplicate copilot instruction files from addon folder
+  - Consolidated instructions to workspace folder only
+  - Simplified instructions to focus on documentation maintenance
 
 ## [0.1.0-beta] - 2025-08-05
 
