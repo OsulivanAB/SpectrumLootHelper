@@ -1,0 +1,171 @@
+name: ✨ Feature Request
+description: Suggest a new feature or enhancement for Spectrum Loot Helper
+title: "[FEATURE] "
+labels: ["enhancement", "needs-review"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! Please provide detailed information to help us understand and evaluate your request.
+
+  - type: textarea
+    id: feature-summary
+    attributes:
+      label: ✨ Feature Summary
+      description: A clear and concise description of the feature you'd like to see.
+      placeholder: Briefly describe the feature...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: 🎯 Problem/Need
+      description: What problem does this feature solve? What need does it address for the guild?
+      placeholder: |
+        Describe the current situation that this feature would improve:
+        - What guild challenge does this address?
+        - How does this relate to fair loot distribution?
+        - What manual process could be automated?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: 💡 Proposed Solution
+      description: Describe how you envision this feature working.
+      placeholder: |
+        Detailed description of the feature:
+        - How would users interact with it?
+        - What would the UI look like?
+        - How would it integrate with existing features?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feature-category
+    attributes:
+      label: 📋 Feature Category
+      description: What type of feature is this?
+      options:
+        - "Attendance Tracking"
+        - "Loot Distribution"
+        - "Officer Tools"
+        - "Guild Integration"
+        - "User Interface"
+        - "Reporting/Analytics"
+        - "Configuration/Settings"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: guild-benefit
+    attributes:
+      label: 🏰 Guild Benefit Level
+      description: How much would this benefit Spectrum Federation?
+      options:
+        - "High - Addresses major guild pain point"
+        - "Medium - Nice improvement to have"
+        - "Low - Quality of life enhancement"
+        - "Officer-only - Primarily for guild leadership"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: user-audience
+    attributes:
+      label: 👥 Target Audience
+      description: Who would primarily use this feature?
+      options:
+        - "All guild members"
+        - "Raiders only"
+        - "Officers/Leadership"
+        - "Loot council members"
+        - "Class leaders"
+        - "Specific roles (describe in additional context)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives-considered
+    attributes:
+      label: 🔄 Alternatives Considered
+      description: Have you considered any alternative solutions or workarounds?
+      placeholder: |
+        - Other addons that might do this
+        - Manual processes currently used
+        - Different approaches to solving the same problem
+
+  - type: textarea
+    id: mockups-examples
+    attributes:
+      label: 🖼️ Mockups/Examples
+      description: Any visual examples, mockups, or references to similar features in other addons?
+      placeholder: |
+        - Screenshots from other addons
+        - Hand-drawn mockups
+        - Links to similar implementations
+        - Descriptions of UI layouts
+
+  - type: dropdown
+    id: implementation-complexity
+    attributes:
+      label: ⚙️ Estimated Complexity
+      description: How complex do you think this feature would be to implement? (Your best guess)
+      options:
+        - "Simple - Small UI change or setting"
+        - "Medium - New feature with some complexity"
+        - "Complex - Major new system or integration"
+        - "I'm not sure"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority-timeline
+    attributes:
+      label: ⏰ Desired Timeline
+      description: When would you ideally like to see this feature?
+      options:
+        - "Before next raid tier"
+        - "This expansion"
+        - "Next expansion"
+        - "Whenever possible"
+        - "No specific timeline"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📝 Additional Context
+      description: |
+        Any additional information that would help us understand this request:
+        - Specific use cases or scenarios
+        - Integration with guild processes
+        - Officer input or discussion
+        - Related to specific WoW content or mechanics
+      placeholder: Any other relevant information...
+
+  - type: checkboxes
+    id: feature-checklist
+    attributes:
+      label: ✅ Checklist
+      description: Please verify the following before submitting
+      options:
+        - label: I have searched existing issues to ensure this isn't already requested
+          required: true
+        - label: This feature aligns with the addon's mission of fair loot distribution
+          required: true
+        - label: This would benefit Spectrum Federation guild members
+          required: true
+        - label: I have considered how this might affect guild dynamics
+          required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Note**: Feature requests will be reviewed by the development team and may be discussed with guild officers before implementation. Priority will be given to features that most benefit the guild's fair loot distribution goals.

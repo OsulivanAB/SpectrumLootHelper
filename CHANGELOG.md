@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **GitHub Issue Templates**: Bug report and feature request forms for structured community feedback
+- **GitHub Pull Request Template**: Comprehensive PR checklist with mandatory documentation updates
+  - Documentation update verification for CHANGELOG.md, README.md, and CONTRIBUTING.md
+  - Guild impact assessment categories (High/Medium/Low/Officer Review Needed)
+  - In-game testing checklist and UI validation requirements
 - *TBD* - Attendance tracking system for raid participation
 - *TBD* - Fair loot distribution algorithm based on attendance
 - *TBD* - Officer management interface for loot coordination
