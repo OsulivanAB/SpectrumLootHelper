@@ -12,13 +12,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **GitHub Pull Request Template**: Comprehensive PR checklist with mandatory documentation updates
   - Documentation update verification for CHANGELOG.md, README.md, and CONTRIBUTING.md
   - Guild impact assessment categories (High/Medium/Low/Officer Review Needed)
-  - In-game testing checklist and UI validation requirements
+  - In-game testing checklist and WoW compatibility verification
+  - Performance impact assessment and UI scaling validation
 - *TBD* - Attendance tracking system for raid participation
 - *TBD* - Fair loot distribution algorithm based on attendance
 - *TBD* - Officer management interface for loot coordination
 - *TBD* - Guild member priority calculations
 - *TBD* - Loot history tracking and reporting
 - *TBD* - Integration with Warcraft Logs and Raider.IO data
+
+### TODO - Release Process (Reminder)
+- **📦 Semantic Version Tagging**: Add semantic version tag for first release
+- **🚀 GitHub Release Drafting**: Create GitHub release with release notes
+- **⚙️ Automated Packaging**: Set up GitHub Actions for automated addon packaging
+- **📤 Automated Publishing**: Automate publishing to CurseForge/WoW Interface
+- **🔄 Release Workflow**: Complete CI/CD pipeline for future releases
 
 ### Changed
 - *TBD* - Initial feature implementations
