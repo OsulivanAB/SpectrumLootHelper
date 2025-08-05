@@ -14,6 +14,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Guild impact assessment categories (High/Medium/Low/Officer Review Needed)
   - In-game testing checklist and WoW compatibility verification
   - Performance impact assessment and UI scaling validation
+- **MkDocs Documentation Site**: Professional documentation with Material theme
+  - Comprehensive installation guides (CurseForge, manual, WoW Interface)
+  - FAQ section with common questions and troubleshooting
+  - User guides for members and officers
+  - Guild-specific branding and Spectrum Federation information
+  - Mobile-responsive design with search functionality
+  - Automated deployment to GitHub Pages
 - *TBD* - Attendance tracking system for raid participation
 - *TBD* - Fair loot distribution algorithm based on attendance
 - *TBD* - Officer management interface for loot coordination

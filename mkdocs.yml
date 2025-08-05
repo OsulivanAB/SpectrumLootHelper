@@ -1,0 +1,104 @@
+site_name: Spectrum Loot Helper
+site_description: Fair loot distribution addon for Spectrum Federation guild in World of Warcraft
+site_author: Spectrum Federation Guild
+site_url: https://osulivanab.github.io/SpectrumLootHelper/
+
+repo_name: OsulivanAB/SpectrumLootHelper
+repo_url: https://github.com/OsulivanAB/SpectrumLootHelper
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2025 Spectrum Federation Guild
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.share
+    - toc.integrate
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+  
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+
+nav:
+  - Home: index.md
+  - Installation:
+    - Quick Start: installation/quick-start.md
+    - Advanced Setup: installation/advanced-setup.md
+    - Troubleshooting: installation/troubleshooting.md
+  - User Guide:
+    - Getting Started: user-guide/getting-started.md
+    - Officer Controls: user-guide/officer-controls.md
+    - Loot Distribution: user-guide/loot-distribution.md
+    - Settings: user-guide/settings.md
+  - FAQ: faq.md
+  - Support:
+    - Troubleshooting: support/troubleshooting.md
+    - Known Issues: support/known-issues.md
+    - Report a Bug: support/report-bug.md
+  - Development:
+    - Contributing: development/contributing.md
+    - Changelog: development/changelog.md
+    - API Reference: development/api-reference.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/OsulivanAB/SpectrumLootHelper
+    - icon: fontawesome/solid/gamepad
+      link: https://www.warcraftlogs.com/guild/us/stormrage/spectrum%20federation
+      name: Warcraft Logs
+    - icon: fontawesome/solid/trophy
+      link: https://raider.io/guilds/us/stormrage/Spectrum%20Federation
+      name: Raider.IO
+
+extra_css:
+  - stylesheets/extra.css

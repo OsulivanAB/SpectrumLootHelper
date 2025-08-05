@@ -1,0 +1,100 @@
+/* Custom styles for Spectrum Loot Helper documentation */
+
+/* Guild branding colors */
+:root {
+  --guild-primary: #6f42c1;
+  --guild-secondary: #7952b3;
+  --guild-accent: #9d72c4;
+}
+
+/* Custom admonition for guild-specific info */
+.md-typeset .admonition.guild,
+.md-typeset details.guild {
+  border-color: var(--guild-primary);
+}
+
+.md-typeset .guild>.admonition-title,
+.md-typeset .guild>summary {
+  background-color: var(--guild-primary);
+  border-color: var(--guild-primary);
+}
+
+.md-typeset .guild>.admonition-title::before,
+.md-typeset .guild>summary::before {
+  background-color: currentColor;
+  mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2M21 9V7L15 1L9 7V9C9 10.1 9.9 11 11 11V16L7.5 17.5C7.09 17.66 6.84 18.08 6.84 18.5S7.09 19.34 7.5 19.5L11 21L14.5 19.5C14.91 19.34 15.16 18.92 15.16 18.5S14.91 17.66 14.5 17.5L11 16V11C12.1 11 13 10.1 13 9Z'/%3E%3C/svg%3E");
+}
+
+/* Enhance code blocks for slash commands */
+.md-typeset code {
+  background-color: rgba(111, 66, 193, 0.1);
+  color: var(--guild-primary);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+/* Custom styling for installation steps */
+.md-typeset .task-list-item {
+  margin: 0.5em 0;
+}
+
+.md-typeset .task-list-item input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+/* Enhance tables for guild information */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: rgba(111, 66, 193, 0.1);
+  color: var(--guild-primary);
+  font-weight: 600;
+}
+
+/* Style for FAQ sections */
+.md-typeset h3 {
+  color: var(--guild-secondary);
+  border-bottom: 1px solid rgba(111, 66, 193, 0.2);
+  padding-bottom: 0.2em;
+}
+
+/* Navigation enhancements */
+.md-nav__title {
+  color: var(--guild-primary);
+}
+
+/* Custom button styling */
+.md-button {
+  background-color: var(--guild-primary);
+  border-color: var(--guild-primary);
+}
+
+.md-button:hover {
+  background-color: var(--guild-secondary);
+  border-color: var(--guild-secondary);
+}
+
+/* Highlight important file paths */
+.md-typeset .highlight .filename {
+  background-color: rgba(111, 66, 193, 0.1);
+  color: var(--guild-primary);
+  padding: 0.2em 0.5em;
+  border-radius: 3px;
+  font-family: var(--md-code-font);
+  font-size: 0.85em;
+}
+
+/* Responsive improvements for mobile */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset table:not([class]) {
+    font-size: 0.8em;
+  }
+
+  .md-typeset .admonition {
+    margin: 1em 0;
+  }
+}
