@@ -11,7 +11,29 @@ Get Spectrum Loot Helper up and running in just a few minutes!
 
 ## Installation Methods
 
-### Method 1: CurseForge Client (Recommended)
+
+### Method 1: WowUp (Recommended)
+
+!!! tip "Easy and Open Source"
+    WowUp is a popular open source addon manager that supports multiple addon providers.
+
+1. **Install WowUp**
+   - Download from [WowUp.io](https://wowup.io/)
+   - Install and launch the application
+
+2. **Add World of Warcraft**
+   - Click "Settings" > "Game Detection"
+   - Ensure your WoW installation is detected (Retail)
+
+3. **Find and Install Spectrum Loot Helper**
+   - Go to the "Get Addons" tab
+   - Search for "Spectrum Loot Helper"
+   - Click "Install"
+   - The addon will be managed and updated automatically
+
+---
+
+### Method 2: CurseForge Client
 
 !!! tip "Easiest Method"
     This is the recommended method for most users as it handles updates automatically.
@@ -30,7 +52,7 @@ Get Spectrum Loot Helper up and running in just a few minutes!
    - Click "Install"
    - The addon will be automatically downloaded and installed
 
-### Method 2: Manual Installation
+### Method 3: Manual Installation
 
 !!! info "For Advanced Users"
     Manual installation gives you more control but requires managing updates yourself.
@@ -48,7 +70,7 @@ Get Spectrum Loot Helper up and running in just a few minutes!
    - You should see a `SpectrumLootHelper` folder
    - The folder should contain `.lua` and `.toc` files
 
-### Method 3: WoW Interface
+### Method 4: WoW Interface
 
 !!! note "Alternative Source"
     Available on WoW Interface for users who prefer this platform.

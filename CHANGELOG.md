@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Documentation**: Added WowUp installation instructions to the documentation and updated the README to direct users to the docs for all installation methods, including WowUp.
 - **GitHub Issue Templates**: Bug report and feature request forms for structured community feedback
 - **GitHub Pull Request Template**: Comprehensive PR checklist with mandatory documentation updates
   - Documentation update verification for CHANGELOG.md, README.md, and CONTRIBUTING.md

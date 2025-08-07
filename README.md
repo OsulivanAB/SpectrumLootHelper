@@ -36,13 +36,11 @@ Create a transparent and equitable loot distribution system that rewards consist
 
 ## 📦 Installation
 
-📖 **[Complete Installation Guide](https://osulivanab.github.io/SpectrumLootHelper/installation/quick-start/)** - Detailed instructions for all installation methods
+📖 **[Complete Installation Guide](https://osulivanab.github.io/SpectrumLootHelper/installation/quick-start/)**
 
-> 🚧 **Coming Soon** - Installation instructions will be available once the first release is ready
+> 🚀 **Multiple installation methods are supported, including WowUp, CurseForge, manual, and WoW Interface.**
 
-1. *TBD* - Download the latest release from the [Releases](https://github.com/OsulivanAB/SpectrumLootHelper/releases) page
-2. *TBD* - Extract the files to your World of Warcraft AddOns directory
-3. *TBD* - Restart World of Warcraft or reload your UI
+For the latest and most accurate installation instructions—including how to install via WowUp—please visit the [Installation Guide](https://osulivanab.github.io/SpectrumLootHelper/installation/quick-start/).
 
 ---
 
